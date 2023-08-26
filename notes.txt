@@ -1,0 +1,13 @@
+mkdir - criar pasta no cmd 
+
+npx create-react-app
+
+npm start - startar 
+
+package.json - aparece as dependencias q estão instaladas
+
+gitignore - pra caso quiser ignorar algum arquivo 
+
+node_modules - modulos para trabalhar
+
+public - alguns arquivos base
