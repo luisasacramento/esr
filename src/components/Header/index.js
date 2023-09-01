@@ -1,13 +1,14 @@
-import './style.css'
+import styled from 'styled-components'
+
+const HeaderContainer = styled.header`
+ background-color: blueviolet;
+`
 
 function Header(){
     return(
-        <header className="App-Header">
-            <h1>Cadastro de Pessoas</h1>
-        </header>
-
-    )
+        <HeaderContainer> TESTE
+        </HeaderContainer>
+    );
 }
-
 
 export default Header

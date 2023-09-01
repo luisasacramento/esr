@@ -1,13 +1,21 @@
-import './App.css';
-import Header from './components/Header';
-import MenuHeader from './components/menuHeader';
+import Header from './components/Header'
+import styled from 'styled-components'
+
+const AppContainer = styled.div`
+text-align: center;
+font-size: 36px;
+color: antiquewhite;
+text-decoration: underline;
+`
+
 
 function App() {
   return (
-    <div className="App">
-     <Header />
-     <MenuHeader />
-    </div>
+    <AppContainer>
+      <Header />
+    </AppContainer>
+      
+    
   );
 }
 
