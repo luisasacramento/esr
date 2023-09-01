@@ -1,3 +1,4 @@
+import OpcoesMenu from '../OpcoesMenu'
 import styled from 'styled-components'
 
 const HeaderContainer = styled.header`
@@ -6,7 +7,8 @@ const HeaderContainer = styled.header`
 
 function Header(){
     return(
-        <HeaderContainer> TESTE
+        <HeaderContainer> 
+            <OpcoesMenu></OpcoesMenu>
         </HeaderContainer>
     );
 }
